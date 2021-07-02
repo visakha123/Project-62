@@ -1,8 +1,14 @@
 <html>
 	<head>
 		<title>Project 62</title>
+		<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+	
 		<center>
 			<ul class="menu">
 				<li class="links"><a href="#home">Home</a></li>
@@ -11,6 +17,8 @@
 			</ul>
 		</center>
 		<br>
+		
+		<div class="container">
 		
 		<section id="home">
 		<h1>Home</h1>
@@ -27,14 +35,12 @@
 				<img id="pic1" class="image-section" src="pic1.jpeg">
 				<img class="image-section" src="pic2.jpg">
 				<img class="image-section" src="pic%203.jpeg">
-				<img class="image-section" src="pic%204.jpg">
 				<br><br>
 			</div>
 			<div class="row">
 				<img id="pic1" class="image-section" src="pic%205.jpg">
 				<img class="image-section" src="pic%206.jpg">
 				<img class="image-section" src="pic%207.jpg">
-				<img class="image-section" src="pic%208.jpg">
 				<br><br>
 			</div>
 		</section>
@@ -43,69 +49,72 @@
 		
 		<section id="slide">
 			<h1>Slide Gallery</h1>
-			<meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-                  
+			
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">   
                   <div class="carousel-inner">
-                   <div class="item">
+                   <div class="item active">
 					<center>
-						<img src="yelro.jpg" class="img-responsive" alt="Yellow" style="width:100%;">
-						<div class="carousel-caption">
-						 <h3>Yellow Rose</h3>
-							 <p></p>
+						<a href="https://www.proflowers.com/blog/history-and-meaning-of-yellow-roses/#:~:text=Suffice%20it%20to%20say%2C%20you,represents%20joy%2C%20wisdom%20and%20power." target="_blank">
+							<img src="yelro.jpg" class="img-reponsive">
+						</a>
+						<div class="carousel-content">
+							<p>Yellow rose</p>
 						</div>
 					</center>
+					  </div>
 			
 			<div class="item">
 				<center>
-					<img src="blro.jpg" class="img-responsive" alt="Blue" style="width:100%;">
-				<div class="carousel-caption">
-						 <h3>Blue Rose</h3>
-							 <p></p>
-						</div>
+					<a href="https://www.floweraura.com/blog/7-unknown-facts-about-impeccable-blue-rose" target="_blank">
+						<img src="blro.jpg" class="img-responsive">
+					</a>
+					<div class="carousel-content">
+						<p>Blue Rose</p>
+					</div>
 				</center>
 			</div>
 			
 				<div class="item">
 				<center>
-					<img src="grero.jpg" class="img-responsive" alt="Green" style="width:100%;">
-					<div class="carousel-caption" >
-						 <h3>Green Rose</h3>
-							 <p></p>
-						</div>
+				<a href="https://florgeous.com/green-roses/" target="_blank">
+						<img src="grero.jpg" class="img-responsive">
+					</a>
+					<div class="carousel-content">
+						<p>Green Rose</p>
+					</div>
 				</center>
 			</div>
 			
 				<div class="item">
 				<center>
-					<img src="redro.jpg" class="img-responsive" alt="Red" style="width:100%;">
-					<div class="carousel-caption" >
-						 <h3>Red Rose</h3>
-							 <p></p>
-						</div>
+					<a href="https://www.sendflowers.com/historical-facts-about-roses.htm" target="_blank">
+						<img src="redro.jpg" class="img-responsive">
+					</a>
+					<div class="carousel-content">
+						<p>Red Rose</p>
+					</div>
 				</center>
 			</div>
 			
 				<div class="item">
 				<center>
-					<img src="purro.jpg" class="img-responsive" alt="Violet" style="width:100%;">
-					<div class="carousel-caption" >
-						 <h3>Violet Rose</h3>
-							 <p></p>
-						</div>
+					<a href="https://www.flowerglossary.com/meaning-of-purple-roses/" target="_blank">
+						<img src="purro.jpg" class="img-responsive">
+					</a>
+					<div class="carousel-content">
+						<p>Violet Rose</p>
+					</div>
 				</center>
 			</div>
 			
 				<div class="item">
 				<center>
-					<img src="pinkro.jpg" class="img-responsive" alt="Pink" style="width:100%;">
-				  <div class="carousel-caption" >
-						 <h3>Pink Rose</h3>
-							 <p></p>
-						</div>
+                     <a href="https://www.serenataflowers.com/pollennation/history-varieties-meaning-pink-rose/" target="_blank">
+						<img src="pinkro.jpg" class="img-responsive">
+					</a>
+					<div class="carousel-content">
+						<p>Pink Rose</p>
+					</div>
 				</center>
 			</div>
 			
@@ -114,9 +123,11 @@
 </a>
 <a class="right carousel-control" href="#myCarousel" data-slide="next">
 	<span class="glyphicon glyphicon-chevron-right"></span>
-					   </a>
-					 </div>
-					 </div>
+</a>
+				   </div>
+			</div>
+			
 		</section>
-	</body>
+				   </div>
+			</body>
 </html>

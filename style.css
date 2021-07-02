@@ -56,3 +56,18 @@ h3 {
 	cursor: pointer;
 	margin-top: 0px;
 }
+.container
+{
+    text-align: center;
+}
+#myCarousel{
+	background-color: aqua;
+}
+#myCarousel img{
+	height:300px;
+	margin-top: 35px;
+}
+.carousel-content{
+	font-size: 20px;
+	color: crimson;
+}
